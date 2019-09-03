@@ -1,0 +1,19 @@
+using System;
+
+namespace uppgift_while_loop
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Mata in tal mellan 1-100");
+            int tal = int.Parse(Console.ReadLine());
+            while (tal <= 100)
+            {
+                tal++;
+                Console.WriteLine(tal);
+            }
+
+        }
+    }
+}
