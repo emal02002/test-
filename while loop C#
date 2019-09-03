@@ -1,0 +1,17 @@
+using System;
+
+namespace uppgift_while_loop
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int tal=0;
+            while(tal<=20)
+            {
+                Console.WriteLine(tal + "");
+                tal++;
+            }
+        }
+    }
+}
