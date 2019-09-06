@@ -5,6 +5,7 @@ body{
 }
 
 h1{
+	border:solid;
 	font-style: Arial;
 	color:blue;
 	font-size:22px;
@@ -18,20 +19,25 @@ h2{
 	color:red;
 	background-color: brown;
 	text-align:center
+}
+h3{
+	text-align:right;
+}
+.p3{
+	text-align:right;
 	
 }
 .p2 {
 	background-color: gray;
 	color:purple;
 	text-align:center
-	
-	
 }
 
 .special{
+	border:solid;
 	color:black;
-	font-size: 22px;
-	
-	
+	font-size: 14px;
 }
-
+a {
+text-decoration: none;
+}
